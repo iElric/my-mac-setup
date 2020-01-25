@@ -41,7 +41,7 @@ Use `exec $SHELL -l` to make change effect in current terminal window or simply 
 `exec $SHELL -l`
 
 ### Install JDK8
-**Oracle no longer provide free JDK, so use openJDK instead**
+**Oracle no longer provide free JDK, so use openJDK instead**\
 See details of [openJDK](https://github.com/AdoptOpenJDK/homebrew-openjdk)\
 Add third party repo to brew:\
 `brew tap AdoptOpenJDK/openjdk`\
