@@ -57,4 +57,10 @@ Or add the absolute jdk path under:
 `/Library/Java/JavaVirtualMachines`
 
 
+## Install pyenv
+**TODO**
+
+## Install Hadoop and Spark
+**TODO**
+
 
