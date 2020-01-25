@@ -43,14 +43,18 @@ Use `exec $SHELL -l` to make change effect in current terminal window or simply 
 ### Install JDK8
 **Oracle no longer provide free JDK, so use openJDK instead**\
 See details of [openJDK](https://github.com/AdoptOpenJDK/homebrew-openjdk)\
+
 Add third party repo to brew:\
 `brew tap AdoptOpenJDK/openjdk`\
 `brew cask install adoptopenjdk8`\
+
 Remove third party repo:\
 `brew untap AdoptOpenJDK/openjdk`\
+
 Let the jenv know the jdk location:\
 `jenv add $(/usr/libexec/java_home)`\
-Or add the absolute path 
+Or add the absolute path:
+`/Library/Java/JavaVirtualMachines`
 
 
 
