@@ -53,7 +53,7 @@ Remove third party repo:\
 
 Let the jenv know the jdk location:\
 `jenv add $(/usr/libexec/java_home)`\
-Or add the absolute path:
+Or add the absolute jdk path under:
 `/Library/Java/JavaVirtualMachines`
 
 
