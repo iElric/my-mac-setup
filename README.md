@@ -26,7 +26,7 @@ A lot of these themes based on [power fonts](https://github.com/powerline/fonts)
 
 `brew cask install visual-studio-code`\
 `settings.json` and `keybindings.json` are at `~/Library/Application Support/Code/User/`\
-simply copy from the old machine to the new machine
+Simply copy from the old machine to the new machine
 
 ## Install jenv and jdks
 
@@ -40,7 +40,7 @@ Use [jenv](https://github.com/jenv/jenv) to switch between multiple jdk
 
 `echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc`\
 `echo 'eval "$(jenv init -)"' >> ~/.zshrc`\
-Use `exec $SHELL -l` to make change effect in current terminal window or simply open a new one\
+Use `exec $SHELL -l` to make change effect in current terminal window or simply open a new one
 
 ### Use plugin to set JAVA_HOME
 
@@ -65,13 +65,19 @@ Let the jenv know the jdk location:\
 Or add the absolute jdk path under:
 `/Library/Java/JavaVirtualMachines`
 
-
 ## Install pyenv
 
-**TODO**
+Install via homebrew:\
+`brew brew install pyenv`
+
+Add pyenv init to your shell to enable shims and autocompletion:\
+`echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc`
+
+Check all commands here:\
+[pyenv commands](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-shell)
 
 ## Install Hadoop and Spark
 
-**TODO**
+## Install Elixir and Phoenix Framework
 
 
